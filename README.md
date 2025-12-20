@@ -17,8 +17,8 @@ This repository emphasizes:
 ``` bash
 python-for-devops/
 ├── README.md
-├── day-01/   # LIVE
-├── day-02/   # LIVE
+├── day-01/   # PRACTICE
+├── day-02/   # PRACTICE
 ├── day-03/   # PRACTICE
 ├── day-04/   # PRACTICE
 ├── day-05/   # PRACTICE
