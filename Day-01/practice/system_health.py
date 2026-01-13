@@ -7,7 +7,7 @@ def system_health_check():
 
     current_cpu_usage = psutil.cpu_percent(interval=1)
     current_mem_usage = psutil.virtual_memory().percent
-    current_disk_usage = psutil.disk_usage('/').percent
+    current_disk_usage = psutil.disk_usage('/dev').percent
     
     print(f"\nCPU Usage: {current_cpu_usage}%")
     print(f"Memory Usage: {current_mem_usage}%")
