@@ -5,7 +5,7 @@ joke_api = "https://official-joke-api.appspot.com/random_joke"
 
 data = requests.get(joke_api)
 
-print(dir(data))
+#print(dir(data))
 
 if data.status_code == 200:
 
